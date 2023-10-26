@@ -1,0 +1,29 @@
+
+START:
+  ; Do some stuff, then go to the loop
+  LDI r16, 0x41
+  LDI r17, 0x42
+  RJMP LOOP_PRE
+
+
+LOOP_PRE:
+  PUSH r16
+  PUSH r17
+  LDI r16, 0
+  LDI r17, 10
+
+
+LOOP:
+  INC r16
+  CMP r16, r17
+  BRNE LOOP
+  RJMP LOOP_POST
+
+
+LOOP_POST:
+  POP r17
+  POP r16
+  RJMP HANGUP
+
+HANGUP:
+  RJMP HANGUP
