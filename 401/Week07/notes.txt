@@ -1,0 +1,9 @@
+What is a boolean?
+-- A true or false value
+
+Why do we need bools?
+-- They remove ambiguity in conditions
+
+What are the possible values of a bool?
+- True
+- False
