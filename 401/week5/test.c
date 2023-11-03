@@ -2,7 +2,7 @@
 
 int main(void){
 
-    for(int x = 0; x < 5; x++){
+    for(int i = 0; i < 5; i++){
 
     }
 

@@ -5,7 +5,17 @@
 
 my_other_list = []
 
-for number in range(10):
-    my_other_list.append(number * 3)
+for i in range(4):
+    my_other_list.append(input("Enter a string: "))
 
 print(my_other_list)
+
+print(
+    [
+        i
+        for i
+        in range(1000)
+        if i % 2 != 1
+    ]
+)
+
