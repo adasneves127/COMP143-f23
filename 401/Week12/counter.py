@@ -1,0 +1,7 @@
+file = open("number.txt")
+number = file.readline()
+file.close()
+number_int = int(number)
+file = open("number.txt", "w")
+file.write(str(number_int + 1))
+file.close()
