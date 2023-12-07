@@ -1,0 +1,5 @@
+Hello COMP143-402!
+
+This is a text file!
+
+I can write things in here...
